@@ -1,4 +1,4 @@
-config RTL8192CU-FIXES
+config RTL8192CU
 	tristate "Realtek 8192C USB WiFi Fixes"
 	depends on MAC80211 && USB
 	select CFG80211_WEXT
